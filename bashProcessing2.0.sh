@@ -30,7 +30,7 @@ ls $pathfastq  -1 > $pathfastq/config0.txt && grep "trimmed" $pathfastq/config0.
 
 #>>>>>>>alignment using <miRDeep2>
 
-docker run -v $pathIndex:/mnt/index -v $pathfastq:/mnt -it 9a61a41ee404 #original hayque intalar unas librerias
+docker run -v $pathIndex:/mnt/index -v $pathfastq:/mnt 891318f9b55d #-it 9a61a41ee404 #original hayque intalar unas librerias
 
 #>>>>>>>diferential expresion
 
